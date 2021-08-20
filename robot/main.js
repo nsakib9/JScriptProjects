@@ -13,7 +13,6 @@ const selectColor = document.getElementById('SelectColor');
 
 console.log(selectColor)
 
-
 // Assign color to elements 
 elements.forEach(function(element){
     const color = getRanCol();
