@@ -30,7 +30,7 @@ h1 span{
 }
 .container{
     margin-top: 3rem;
-    width: 350px;
+    width: 350px !important;
     height: 350px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
