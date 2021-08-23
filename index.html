@@ -38,9 +38,10 @@
           font-size: 3.5rem;
         }
       }
-.card img {
+.card img, video {
 max-height: 222px;
 object-fit: cover;
+object-position: top;
 }
     </style>
 
@@ -123,6 +124,26 @@ object-fit: cover;
 
             <div class="card-body">
               <p class="card-text">An awesome stopwatch sytem using Javascript.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="/JScriptProjects/stopwatch" class="btn btn-sm btn-outline-secondary">View Project now</a>
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                </div>
+                <small class="text-muted">HTML, JS, CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <!-- <img class="bd-placeholder-img card-img-top"  src="./screen/stopwatch.jpg" /> -->
+<video loop preload="auto" autoplay muted>
+  <source src="./screen/searchbar.mp4" type="video/mp4">
+  <source src="./screen/searchbar.ogg" type="video/ogg">
+</video> 
+            <div class="card-body">
+              <p class="card-text">An awesome searchbar using Javascript.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a target="_blank" href="/JScriptProjects/stopwatch" class="btn btn-sm btn-outline-secondary">View Project now</a>
